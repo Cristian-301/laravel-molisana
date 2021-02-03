@@ -1,0 +1,34 @@
+h2 {
+  color: #002D73;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  .card {
+    position: relative;
+    // display: block;
+    width: calc(100% / 3 - 10px);
+    margin: 5px;
+    img {
+      width: 100%;
+    }
+    .card-text {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(178, 229, 252, .5);
+      opacity: 0;
+      transition: .5s;
+    }
+    &:hover .card-text{
+      opacity: 1;
+    }
+  }
+}

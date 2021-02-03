@@ -138,7 +138,7 @@ Route::get('/', function () {
         ]
     ];
 
-    dump($data);
+    // dump($data);
 
     $lunghe = [];
     $corte = [];
@@ -154,13 +154,14 @@ Route::get('/', function () {
         }
     };
 
-    dump($lunghe);
-    dump($corte);
-    dump($cortissime);
     
 
 
-    return view('home');
+    return view('home', [
+    "lunghe" => $lunghe,
+    "corte" => $corte,
+    "cortissime" => $cortissime
+    ]);
 });
 
 
