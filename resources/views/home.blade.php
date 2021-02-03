@@ -22,18 +22,18 @@
           <li><a href="">NEWS</a></li>
         </ul>
       </header>
-       {{-- //header --}}
+      {{-- //header --}}
 
-          {{-- main --}}
+      {{-- main --}}
       <main>
-
+        
       </main>
-       {{-- //main --}}
+      {{-- //main --}}
 
-          {{-- footer --}}
+      {{-- footer --}}
       <footer>
 
       </footer>
-       {{-- //footer --}}
+      {{-- //footer --}}
     </body>
 </html>
