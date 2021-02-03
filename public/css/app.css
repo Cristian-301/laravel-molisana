@@ -1,3 +1,38 @@
-body {
-  background-color: red;
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display: inline;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  margin: 30px 0;
+}
+
+li {
+  padding: 20px 5px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+li.active {
+  background-color: #B2E5FC;
+}
+li:hover {
+  background-color: #B2E5FC;
+}
+li a {
+  text-decoration: none;
+  color: black;
 }

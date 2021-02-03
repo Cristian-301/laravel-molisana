@@ -12,7 +12,28 @@
         
     </head>
     <body>
-      <h1>We are live and runing!</h1>
-       
+
+      {{-- header --}}
+      <header>
+        <img src="{{ asset('img/marchio-sito-test.png') }}" alt="La molisana">
+        <ul class="list-inline">
+          <li class="active"><a href="">HOME</a></li>
+          <li><a href="">PRODOTTI</a></li>
+          <li><a href="">NEWS</a></li>
+        </ul>
+      </header>
+       {{-- //header --}}
+
+          {{-- main --}}
+      <main>
+
+      </main>
+       {{-- //main --}}
+
+          {{-- footer --}}
+      <footer>
+
+      </footer>
+       {{-- //footer --}}
     </body>
 </html>
